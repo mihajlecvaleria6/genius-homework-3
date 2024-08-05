@@ -1,0 +1,14 @@
+.section-title {
+  color: var(--color-primary-light);
+  font-size: 64px;
+  font-weight: 700;
+  font-family: 'Play', sans-serif;
+}
+
+.section-title .accent {
+  color: var(--color-primary-dark);
+}
+
+.section-title.centered {
+  text-align: center;
+}

@@ -1,0 +1,106 @@
+.about-section {
+  padding: 126px 0 88px 0;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.about-content {
+  top: 0;
+  width: 100%;
+  max-width: 709px;
+}
+
+.about-title {
+  margin-bottom: 40px;
+}
+
+.about-text {
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+.about-text .accent {
+  font-weight: 600;
+}
+
+.img-container {
+  position: static;
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  max-height: 700px;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.about-img {
+  border-radius: 50%;
+  width: 328px;
+  height: 328px;
+  box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.2);
+}
+
+.to-about-procedure {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 40px;
+}
+
+.after-about-procedure {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.icon-Star-1 {
+  position: absolute;
+  top: -20px;
+  left: 120px;
+  fill: var(--color-primary-dark);
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.icon-Star-2 {
+  position: absolute;
+  top: -300px;
+  right: 0;
+  fill: var(--color-primary-light);
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.icon-Star-3 {
+  position: absolute;
+  top: -100px;
+  right: 20px;
+  fill: var(--color-secondary-light);
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    transform: scale(1.05);
+  }
+
+  50% {
+    transform: rotate(190deg);
+  }
+
+  100% {
+    transform: rotate(380deg);
+    fill: var(--color-secondary-gold);
+  }
+}

@@ -1,0 +1,63 @@
+.footer {
+  position: relative;
+  padding: 56px 0;
+  background-color: var(--color-primary-dark);
+  background-image: url('../images/footer-section-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+footer::before {
+  position: absolute;
+  background-image: url('../images/medicene.png');
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 150px;
+  bottom: 0;
+  right: 0;
+  content: '';
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-nav,
+.footer-address {
+  display: flex;
+  flex-basis: 50%;
+}
+
+.footer-logo,
+.footer-menu {
+  flex-grow: 1;
+}
+
+.footer-list,
+.footer-info {
+  flex-grow: 1;
+}
+
+.address-link {
+  color: var(--color-brand);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.address-link:hover {
+  color: var(--color-primary-light);
+}
+
+.footer-icon {
+  fill: var(--color-brand);
+}
+
+.footer-icon:hover {
+  fill: var(--color-primary-light);
+}
+
+.address-copyright {
+  color: var(--color-secondary-light);
+  font-size: 13px;
+}

@@ -1,0 +1,22 @@
+.hero-section {
+  padding: 166px 0 126px 0;
+  background-image: url('../images/hero-section-background.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.hero-title {
+  margin-bottom: 40px;
+  max-width: 529px;
+  color: var(--color-primary-light);
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 0.8;
+}
+
+.hero-text {
+  font-size: 12px;
+  line-height: 1.5;
+}
